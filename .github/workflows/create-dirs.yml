@@ -24,7 +24,7 @@ jobs:
         uses: ./.github/actions/git-commit
         with:
           patterns: |
-            **/*
+            **/.gitkeep
           commit-prefix: "Create Directories"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
