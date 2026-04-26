@@ -11,7 +11,7 @@ runs:
   steps:
     - name: "[STEP] Run Worker via Bash"
       shell: bash
-      run: bash "${{ github.action_path }}/worker.sh" "${{ inputs.date }}"
+      run: bash "${{ github.action_path }}/worker.bash" "${{ inputs.date }}"
     
     - name: "[STEP] Print Summary via Action"
       uses: ./.github/actions/bot-summary
