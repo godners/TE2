@@ -22,8 +22,9 @@ body:
   - type: dropdown
     id: anastrozole
     attributes:
-      label: 阿那曲唑
-      options: ["0片", "1片", "2片", "3片", "4片", "5片", "6片", "7片", "8片", "9片"]
+      label: 阿那曲唑（每片1毫克）
+      options: ["0片", "1片", "2片", "3片",
+        "4片", "5片", "6片", "7片", "8片", "9片"]
     validations:
       required: true
 
@@ -31,7 +32,8 @@ body:
     id: letrozole
     attributes:
       label: 来曲唑 (每片2.5毫克)
-      options: ["0片", "1片", "2片", "3片", "4片", "5片", "6片", "7片", "8片", "9片"]
+      options: ["0片", "1片", "2片", "3片",
+         "4片", "5片", "6片", "7片", "8片", "9片"]
     validations:
       required: true
 
@@ -39,7 +41,8 @@ body:
     id: testosterone
     attributes:
       label: 丙酸睾酮 (每支25毫克)
-      options: ["0支", "1支", "2支", "3支", "4支", "5支", "6支", "7支", "8支", "9支"]
+      options: ["0支", "1支", "2支", "3支",
+         "4支", "5支", "6支", "7支", "8支", "9支"]
     validations:
       required: true
 
@@ -47,13 +50,14 @@ body:
     id: hcg
     attributes:
       label: 绒促性素 (每支500单位)
-      options: ["0支", "1支", "2支", "3支", "4支", "5支", "6支", "7支", "8支", "9支"]
+      options: ["0支", "1支", "2支", "3支",
+         "4支", "5支", "6支", "7支", "8支", "9支"]
     validations:
       required: true
   
   - type: markdown
     attributes:
-      value: "### 注射详情"
+      value: "---\n\n### 注射详情"
 
   - type: input
     id: injection_site
