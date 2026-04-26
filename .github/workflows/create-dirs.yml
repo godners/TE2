@@ -17,8 +17,8 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
-          
-      - name: Call custom action
+
+      - name: "[STEP] Run Create Directories Via Action"
         uses: ./.github/actions/create-dirs
         with:
           date: ${{ github.event.inputs.date }}
