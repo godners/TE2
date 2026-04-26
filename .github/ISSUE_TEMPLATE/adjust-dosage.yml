@@ -1,6 +1,8 @@
 name: 口服调节
 description: 记录口服药物信息
 title: "口服调节"
+labels: ["adjust"]
+
 body:
   - type: checkboxes
     id: today
@@ -34,11 +36,15 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: dropdown
     id: effect
     attributes:
       label: 效果
-      value: "口服"
+      options: ["正常"]
     validations:
       required: true
 
