@@ -1,0 +1,2 @@
+# .github/actions/auto-deps/requirements.txt
+json5
