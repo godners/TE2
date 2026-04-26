@@ -4,8 +4,6 @@ set -euo pipefail
 echo "[BASH] Create Directorys"
 echo "./github/actions/worker.bash"
 
-INPUT_DATE=$1
-
 if [ -z "$INPUT_DATE" ]; then
     TARGET_DATE=$(TZ='Asia/Shanghai' date +%Y-%m-%d)
 else
