@@ -2,6 +2,7 @@ name: 注射调节
 description: 记录注射调节信息
 title: 注射调节
 labels: ["adjust"]
+
 body:
   - type: checkboxes
     id: today
