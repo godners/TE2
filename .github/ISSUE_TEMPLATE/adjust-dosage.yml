@@ -7,7 +7,7 @@ body:
     attributes:
       label: 今日
       options:
-        - 今日
+        - label: 今日
     validations:
       required: true
 
@@ -22,7 +22,7 @@ body:
     id: anastrozole
     attributes:
       label: 阿那曲唑
-      options: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+      options: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
     validations:
       required: true
 
@@ -30,14 +30,14 @@ body:
     id: letrozole
     attributes:
       label: 来曲唑
-      options: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+      options: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
     validations:
       required: true
 
   - type: input
-    id: effect
+    id: status
     attributes:
-      label: 效果
+      label: 正常
       value: "口服"
     validations:
       required: true
