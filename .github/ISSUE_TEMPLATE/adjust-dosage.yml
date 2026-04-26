@@ -20,6 +20,10 @@ body:
       description: 若今日已勾选，请忽略此项
       placeholder: 请输入日期 (例如 2026-04-01)
 
+  - type: markdown
+    attributes:
+      value: "---"
+      
   - type: dropdown
     id: anastrozole
     attributes:

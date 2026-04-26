@@ -19,6 +19,10 @@ body:
       description: 若今日已勾选，请忽略此项
       placeholder: 请输入日期 (例如 2026-04-01)
 
+  - type: markdown
+    attributes:
+      value: "---\r\n### 药物信息"
+
   - type: dropdown
     id: anastrozole
     attributes:
@@ -57,13 +61,13 @@ body:
   
   - type: markdown
     attributes:
-      value: "---\n\n### 注射详情"
+      value: "---\n\n### 注射信息"
 
   - type: input
     id: injection_site
     attributes:
-      label: 注射部位
-      placeholder: 请输入注射部位
+      label: 进针部位
+      placeholder: 请输进针部位
     validations:
       required: true
 
