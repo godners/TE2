@@ -19,3 +19,12 @@ jobs:
         uses: ./.github/actions/create-dirs
         with:
           date: ${{ github.event.inputs.date }}
+
+      - name: "[STEP] Run Git Commit via Action"
+        uses: ./.github/actions/git-commit
+        with:
+          patterns: |
+            **/*
+          commit-prefix: "Create Directories"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
