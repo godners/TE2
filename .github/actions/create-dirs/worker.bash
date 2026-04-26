@@ -1,5 +1,5 @@
 #!/bin/bash
-set -euo pipeline
+set -euo pipefail
 
 echo "[BASH] Create Directorys"
 echo "./github/actions/worker.bash"
